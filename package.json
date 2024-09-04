@@ -1,0 +1,33 @@
+{
+  "name": "storybook-html",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build",
+    "create:component": "plop component"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "lit": "^3.2.0",
+    "sass": "^1.77.6"
+  },
+  "devDependencies": {
+    "@chromatic-com/storybook": "^1.7.0",
+    "@storybook/addon-essentials": "^8.2.9",
+    "@storybook/addon-links": "^8.2.9",
+    "@storybook/blocks": "^8.2.9",
+    "@storybook/test": "^8.2.9",
+    "@storybook/web-components": "^8.2.9",
+    "@storybook/web-components-vite": "^8.2.9",
+    "plop": "^4.0.1",
+    "storybook": "^8.2.9",
+    "to-string-loader": "^1.2.0",
+    "typescript": "^5.5.3",
+    "vite": "^5.4.1"
+  }
+}

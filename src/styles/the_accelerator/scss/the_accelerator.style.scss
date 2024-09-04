@@ -1,0 +1,107 @@
+// Base
+// -----------------------------------------------------------------------------
+@import 'bootstrap';
+
+// Library
+// ----------------------------------------------------------------------------
+// @import '~slick-carousel/slick/slick';
+// @import 'lib/slick-theme';
+
+// Accelerator
+// ----------------------------------------------------------------------------
+@import 'base/accelerator';
+@import 'base/animation';
+
+// Layout
+// -----------------------------------------------------------------------------
+@import 'layout/page.header';
+@import 'layout/page.content';
+@import 'layout/page.footer';
+
+// Component
+// -----------------------------------------------------------------------------
+@import '../../../components/content-blocks/Hero/Hero.scss';
+
+// Other
+// -----------------------------------------------------------------------------
+@import 'content/node.page';
+@import 'content/node.article';
+
+// Dummy CSS
+
+.sb-show-main.sb-main-padded {
+  padding: 0px;
+}
+
+.fallback-theme {
+  padding: 0px;
+}
+
+.dynamic-theme {
+  padding: 1rem;
+}
+
+.fallback-theme > div {
+  position: relative;
+}
+
+:root {
+  --bgov--white: #ffffff;
+  --bgov--off-white: #f0f0f0;
+  --bgov--ogilvy-red: #b30404;
+  --bgov--dark-rose: #f58e8f;
+  --bgov--light-rose: #fbcece;
+  --bgov--light-blue: #acc1dc;
+  --bgov--dark-grey: #545659;
+  --bgov--light-grey: #a6a6a8;
+  --bgov--black: #000000;
+  --bgov--dark-blue-navy: #0d1e36;
+}
+
+// column carousel
+.carousel-on-mobile .media-image-video {
+  margin-bottom: 0px;
+}
+
+// backgroundColour
+.og_bg__white {
+  --section-bgcolor: #ffffff;
+  background-color: var(--bgov--white);
+}
+.og_bg__off-white {
+  --section-bgcolor: #f0f0f0;
+  background-color: var(--bgov--off-white);
+}
+.og_bg__ogilvy-red {
+  --section-bgcolor: #b30404;
+  background-color: var(--bgov--ogilvy-red);
+}
+.og_bg__dark-rose {
+  --section-bgcolor: #f58e8f;
+  background-color: var(--bgov--dark-rose);
+}
+.og_bg__light-rose {
+  --section-bgcolor: #fbcece;
+  background-color: var(--bgov--light-rose);
+}
+.og_bg__light-blue {
+  --section-bgcolor: #acc1dc;
+  background-color: var(--bgov--light-blue);
+}
+.og_bg__dark-grey {
+  --section-bgcolor: #545659;
+  background-color: var(--bgov--dark-grey);
+}
+.og_bg__light-grey {
+  --section-bgcolor: #a6a6a8;
+  background-color: var(--bgov--light-grey);
+}
+.og_bg__black {
+  --section-bgcolor: #000000;
+  background-color: var(--bgov--black);
+}
+
+.og_bg__dark-blue-navy {
+  --section-bgcolor: #0d1e36;
+  background-color: var(--bgov--dark-blue-navy);
+}
