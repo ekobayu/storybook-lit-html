@@ -1,0 +1,20 @@
+import type { Meta, StoryObj } from '@storybook/web-components'
+import type { {{> componentName }}Props } from './{{> componentName }}'
+import { {{> componentName }} } from './{{> componentName }}'
+
+const meta = {
+  title: 'Content block/{{> componentName }}',
+  render: (args) => {{> componentName }}(args),
+  argTypes: {
+    page_title: { name: 'Page Title' }
+  }
+} satisfies Meta<{{> componentName }}Props>
+
+export default meta
+type Story = StoryObj<{{> componentName }}Props>
+
+export const Default: Story = {
+  args: {
+    page_title: '{{> componentName }} Title'
+  }
+}
